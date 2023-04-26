@@ -1,0 +1,41 @@
+/*variables*/
+
+// Colors-Grid system
+$white: #fff;
+$black: #0b0b0b;
+
+$teal: #58e1c1;
+$gray: #777;
+
+/*color usage*/
+$color-primary: #58e1c1; // teal
+
+$color-secondary: #51ddfc;
+$color-text: #777;
+
+
+$color-error: #e4757a;
+$color-bg-success: #63cc82;
+$color-bg-warning: #fd7856;
+$color-link: #51ddfc; 
+
+//Theme colors
+$themes: (
+  'theme-1': #927bc1, //violet
+  'theme-2': #fd7856, //coral
+  'theme-3': #deb2ee, //lilac
+  'theme-4': #7ee6fd, //lightblue
+  'theme-5': #88d9a0, //sagegreen
+  'theme-6': #4da2bb, //steelblue
+  'theme-7': #ec9fa3, //seapink
+  'theme-8': #fd9f85, //tangerine
+  'theme-9': #e4757a, //deepcoral
+  'theme-10': #63cc82, //emerald
+  'theme-11': #51ddfc, //malibu
+  'theme-12': #80e8d1, //riptide
+  );
+
+  // Breakpoints
+    $break-m: 768px;
+
+  
