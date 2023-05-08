@@ -9,15 +9,16 @@ $gray: #777;
 
 /*color usage*/
 $color-primary: #58e1c1; // teal
-
+$color-primary-light: lighten($color-primary, 15%);
 $color-secondary: #51ddfc;
 $color-text: #777;
 
 
 $color-error: #e4757a;
-$color-bg-success: #63cc82;
-$color-bg-warning: #fd7856;
-$color-link: #51ddfc; 
+$color-success: #63cc82;
+$color-warning: #fd7856;
+$color-default: #51ddfc; 
+$color-info:#927bc1;
 
 //Theme colors
 $themes: (

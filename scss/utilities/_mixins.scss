@@ -1,1 +1,6 @@
 /*mixins*/
+// Media queries
+@mixin mq($break) {  
+    $value: map-get($breakpoints, $break);
+    $sm: map-get($breakpoints, 'sm');  
+}
