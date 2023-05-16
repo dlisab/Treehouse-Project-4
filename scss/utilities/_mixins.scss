@@ -4,3 +4,11 @@
     $value: map-get($breakpoints, $break);
     $sm: map-get($breakpoints, 'sm');  
 }
+
+
+@mixin button-hover-effect {
+    transition: color 0.3% ease-in-out;
+    &:hover {
+        background-color:lighten ($color-primary-light, 50%);
+    }
+}

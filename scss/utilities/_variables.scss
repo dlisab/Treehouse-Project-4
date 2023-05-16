@@ -13,6 +13,9 @@ $color-primary-light: lighten($color-primary, 15%);
 $color-secondary: #51ddfc;
 $color-text: #777;
 
+$base:#58e1c1;
+$base-dark: darken(#58e1c1, 25%);
+$base-light: lighten(#51ddfc, 25%);
 
 $color-error: #e4757a;
 $color-success: #63cc82;
@@ -21,20 +24,19 @@ $color-default: #51ddfc;
 $color-info:#927bc1;
 
 //Theme colors
-$themes: (
-  'theme-1': #927bc1, //violet
-  'theme-2': #fd7856, //coral
-  'theme-3': #deb2ee, //lilac
-  'theme-4': #7ee6fd, //lightblue
-  'theme-5': #88d9a0, //sagegreen
-  'theme-6': #4da2bb, //steelblue
-  'theme-7': #ec9fa3, //seapink
-  'theme-8': #fd9f85, //tangerine
-  'theme-9': #e4757a, //deepcoral
-  'theme-10': #63cc82, //emerald
-  'theme-11': #51ddfc, //malibu
-  'theme-12': #80e8d1, //riptide
-  );
+  $color-theme-1: #927bc1; //violet
+  $color-theme-2: #fd7856; //coral
+  $color-theme-3: #deb2ee; //lilac
+  $color-theme-4: #7ee6fd; //lightblue
+  $color-theme-5: #88d9a0; //sagegreen
+  $color-theme-6: #4da2bb; //steelblue
+  $color-theme-7: #ec9fa3; //seapink
+  $color-theme-8: #fd9f85; //tangerine
+  $color-theme-9: #e4757a; //deepcoral
+  $color-theme-10: #63cc82; //emerald
+  $color-theme-11: #51ddfc; //malibu
+  $color-theme-12: #80e8d1; //riptide
+
 
   // Breakpoints
     $break-m: 768px;
