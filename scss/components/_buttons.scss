@@ -3,7 +3,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn  {
+.btn {
     margin-top: 15px;
     width: 100%;
     color: $white;
@@ -12,11 +12,19 @@
     text-transform: uppercase;
     border-radius: 5px;
     transition: 0.2s;
-      &:hover {
+      .btn-link {
+        &:hover {
         background-color: $color-primary-light;
         transition: opacity 2s ease-in;
     }
-    
+}
+.btn-link:hover {
+    color: $white;
+    background-color: $color-primary;
+  }
+
+
+
     &.default {
         background-color: $color-default;
     }
@@ -33,19 +41,3 @@
         background-color: $color-info;
     }
 }
-.btn default {
-@include button-hover-effect;
-}
-.btn success {
-    @include button-hover-effect;
-    }
-
-.btn error {
-    @include button-hover-effect;
-    }
-.btn warning {
-    @include button-hover-effect;
-    }
-.btn info {
-    @include button-hover-effect;
-    }
