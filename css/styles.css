@@ -422,11 +422,19 @@ h4 {
   background-color: #927bc1;
 }
 
-buttons {
+.btn default {
   transition: color 0.3% ease-in-out;
 }
 
-buttons:hover {
+.btn default:hover {
+  background-color: lighten #99edd9, 50%;
+}
+
+.btn success {
+  transition: color 0.3% ease-in-out;
+}
+
+.btn success:hover {
   background-color: lighten #99edd9, 50%;
 }
 

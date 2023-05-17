@@ -33,6 +33,9 @@
         background-color: $color-info;
     }
 }
-buttons {
+.btn default {
 @include button-hover-effect;
 }
+.btn success {
+    @include button-hover-effect;
+    }
