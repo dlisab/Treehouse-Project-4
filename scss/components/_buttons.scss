@@ -39,3 +39,13 @@
 .btn success {
     @include button-hover-effect;
     }
+
+.btn error {
+    @include button-hover-effect;
+    }
+.btn warning {
+    @include button-hover-effect;
+    }
+.btn info {
+    @include button-hover-effect;
+    }

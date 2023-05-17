@@ -438,6 +438,30 @@ h4 {
   background-color: lighten #99edd9, 50%;
 }
 
+.btn error {
+  transition: color 0.3% ease-in-out;
+}
+
+.btn error:hover {
+  background-color: lighten #99edd9, 50%;
+}
+
+.btn warning {
+  transition: color 0.3% ease-in-out;
+}
+
+.btn warning:hover {
+  background-color: lighten #99edd9, 50%;
+}
+
+.btn info {
+  transition: color 0.3% ease-in-out;
+}
+
+.btn info:hover {
+  background-color: lighten #99edd9, 50%;
+}
+
 /* ============================================= */
 /*              Forms                            */
 /* ============================================= */
