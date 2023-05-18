@@ -11,9 +11,7 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-        &:hover {
-            @include button-hover-effect;
-    }
+        
 
 
 
@@ -32,4 +30,7 @@
     &.info {
         background-color: $color-info;
     }
+    &:hover {
+        @include button-hover-effect;
+}
 }

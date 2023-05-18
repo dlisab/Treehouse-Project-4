@@ -396,14 +396,6 @@ h4 {
   border-radius: 5px;
 }
 
-.btn:hover {
-  transition: color 0.3% ease-in-out;
-}
-
-.btn:hover:hover {
-  background-color: lighten #99edd9, 50%;
-}
-
 .btn.default {
   background-color: #51ddfc;
 }
@@ -422,6 +414,12 @@ h4 {
 
 .btn.info {
   background-color: #927bc1;
+}
+
+.btn:hover {
+  transition: color 0.3% ease-in-out;
+  background-color: #daf8f1;
+  color: #494848;
 }
 
 /* ============================================= */
