@@ -1,9 +1,26 @@
 /*mixins*/
 // Media queries
 @mixin mq($break) {  
-    $value: map-get($breakpoints, $break);
-    $sm: map-get($breakpoints, 'sm');  
-}
+    @if $break == "small" {
+        @media (min-width: $break-sm) and (max-width: $break-md){
+            @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media (min-width: $break-md + 1) {
+            @content;
+        }
+    }
+    @else if $break == "large" {
+        @media (min-width: $break-lg) {
+            @content;
+      }
+    }
+    @else {
+        @error "Whoops! No value could be retrieved for `#{$break}`."
+    }
+}        
+   
 
 
 @mixin button-hover-effect {

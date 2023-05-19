@@ -13,10 +13,20 @@ $color-primary: #58e1c1; // teal
 $color-primary-light: lighten($color-primary, 15%);
 $color-secondary: #51ddfc;
 $color-text: #777;
+$color-border: #ccc;
 
 $base:#58e1c1;
 $base-dark: darken(#58e1c1, 25%);
 $base-light: lighten(#51ddfc, 25%);
+
+$color-btn-bg: (
+    'default': #51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);
+
 
 $color-error: #e4757a;
 $color-success: #63cc82;
@@ -39,7 +49,9 @@ $color-info:#927bc1;
   $color-theme-12: #80e8d1; //riptide
 
 
-  // Breakpoints
-    $break-m: 768px;
-
+  // Media Query Breakpoints
+  $break-xs : '(max-width: 575px)';
+  $break-sm : '(max-width: 576px)'; 
+  $break-md : '(max-width: 768px)';
+  $break-lg : '(max-width: 992px)';
   
