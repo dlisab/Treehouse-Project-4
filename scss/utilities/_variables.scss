@@ -27,12 +27,14 @@ $color-btn-bg: (
     'warning': #fd7856,
 );
 
-
-$color-error: #e4757a;
-$color-success: #63cc82;
-$color-warning: #fd7856;
-$color-default: #51ddfc; 
-$color-info:#927bc1;
+$color-btn-bg: (
+'error': #e4757a,
+'success': #63cc82,
+'warning': #fd7856,
+'default': #51ddfc,
+'info': #927bc1,
+)
+;
 
 //Theme colors
   $color-theme-1: #927bc1; //violet
