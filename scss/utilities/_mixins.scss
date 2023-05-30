@@ -3,12 +3,6 @@
 $break-md: '768px';       
    
 
-
-@mixin button-hover-effect {
-    transition: color 0.3% ease-in-out;
-    background-color:lighten($color-primary-light, 15%);
-    color: rgb(73, 72, 72)
-    }
 @mixin button-hover-effect {
     transition: color 0.3% ease-in-out;
     background-color:lighten($default, 15%);
@@ -32,6 +26,6 @@ $break-md: '768px';
     }
  @mixin button-hover-effect {
         transition: color 0.3% ease-in-out;
-        background-color:lighten($error, 15%);
+        background-color:lighten($, 15%);
         color: rgb(73, 72, 72)
         }
