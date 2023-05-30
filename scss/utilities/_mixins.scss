@@ -11,22 +11,27 @@ $break-md: '768px';
     }
 @mixin button-hover-effect {
     transition: color 0.3% ease-in-out;
-    background-color:lighten($color-default, 15%);
+    background-color:lighten($default, 15%);
     color: rgb(73, 72, 72)
     }
 
 @mixin button-hover-effect {
     transition: color 0.3% ease-in-out;
-    background-color:lighten($color-success, 15%);
+    background-color:lighten($success, 15%);
     color: rgb(73, 72, 72)
     }
 @mixin button-hover-effect {
     transition: color 0.3% ease-in-out;
-    background-color:lighten($color-warning, 15%);
+    background-color:lighten($warning, 15%);
     color: rgb(73, 72, 72)
     }
 @mixin button-hover-effect {
     transition: color 0.3% ease-in-out;
-    background-color:lighten($color-info, 15%);
+    background-color:lighten($info, 15%);
     color: rgb(73, 72, 72)
     }
+ @mixin button-hover-effect {
+        transition: color 0.3% ease-in-out;
+        background-color:lighten($error, 15%);
+        color: rgb(73, 72, 72)
+        }
