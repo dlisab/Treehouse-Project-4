@@ -1,4 +1,27 @@
 /*mixins*/
+/*
+@mixin button-hover-effect  {
+    transition: color 0.3% ease-in-out;
+    background-color:lighten($default, 15%);
+    color: rgb(73, 72, 72)
+    }
+
+@mixin button-hover-effect {
+    transition: color 0.3% ease-in-out;
+    background-color:lighten($success, 15%);
+    color: rgb(73, 72, 72)
+    }
+@mixin button-hover-effect {
+    transition: color 0.3% ease-in-out;
+    background-color:lighten($warning, 15%);
+    color: rgb(73, 72, 72)
+    }
+.btn.info button-hover-effect {
+    transition: color 0.3% ease-in-out;
+    background-color:lighten($info, 15%);
+    color: rgb(73, 72, 72)
+    }
+    */
 /*variables*/
 /*color usage*/
 /* Sections
@@ -414,6 +437,12 @@ h4 {
 
 .btn.info {
   background-color: #927bc1;
+}
+
+.btn:hover {
+  transition: color 0.3% ease-in-out;
+  background-color: #9ddfb0;
+  color: #494848;
 }
 
 .btn:hover {

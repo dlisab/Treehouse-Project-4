@@ -34,3 +34,8 @@
         @include button-hover-effect;
 }
 }
+.btn:hover {
+    transition: color 0.3% ease-in-out;
+    background-color: #bdafd9;
+    color: #494848;
+  }
